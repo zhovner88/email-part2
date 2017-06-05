@@ -162,9 +162,9 @@
     .footer-links {
       text-decoration: none;
       font-family: sans-serif;
-      font-size: 15px;
+      font-size: 13px;
       line-height: 20px;
-      color: #555555;
+      color: #ffffff;
     }
 
     .sub {
@@ -185,76 +185,45 @@
     </xml>
     <![endif]-->
 </head>
-<body width="100%" bgcolor="#222222" style="margin: 0; mso-line-height-rule: exactly;">
-    <center style="width: 100%; background: #222222; text-align: left;">
+  <body width="100%" bgcolor="#002b45" style="margin: 0; mso-line-height-rule: exactly;">
+      <!-- <center style="width: 100%; background: #222222; text-align: left;"> -->
 
-        <!-- Visually Hidden Preheader Text : BEGIN -->
-        <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
-            (Optional) This text will appear in the inbox preview, but not the email body.
-        </div>
-        <!-- Visually Hidden Preheader Text : END -->
-
-        <!--
-            Set the email width. Defined in two places:
-            1. max-width for all clients except Desktop Windows Outlook, allowing the email to squish on narrow but never go wider than 680px.
-            2. MSO tags for Desktop Windows Outlook enforce a 680px width.
-            Note: The Fluid and Responsive templates have a different width (600px). The hybrid grid is more "fragile", and I've found that 680px is a good width. Change with caution.
-        -->
-        <div style="max-width: 680px; margin: auto;" class="email-container">
-            <!--[if mso]>
-            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
-            <tr>
-            <td>
-            <![endif]-->
-
-        <!-- Email Body : BEGIN -->
-        <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;" class="email-container">
-
-          <!-- Clear Spacer : BEGIN -->
+      <!-- Background style from https://backgrounds.cm/ -->
+      <div style="background-color:#7bceeb;">
+        <!--[if gte mso 9]>
+        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
+        <v:fill type="tile" src="https://i.imgur.com/YJOX1PC.png" color="#7bceeb"/>
+        </v:background>
+        <![endif]-->
+      <table height="100%" width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-            <td height="40" style="font-size: 0; line-height: 0;">
-                &nbsp;
-            </td>
-        </tr>
-        <!-- Clear Spacer : END -->
+          <td valign="top" align="left" background="https://i.imgur.com/YJOX1PC.png">
+       <!-- Background style from https://backgrounds.cm/ -->
 
 
-          <!-- 1 Column Text + Button : BEGIN -->
-          <tr>
-              <td bgcolor="#ffffff">
-                  <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
-                      <tr>
-                          <td style="padding: 40px 40px 20px; text-align: center;">
-                              <img src="cloud.svg" alt="icon" style="height: 30px;">
-                          </td>
-                      </tr>
-                      <tr>
-                          <td style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; text-align: center;">
-                              <p style="margin: 0;">We received a request to reset your password. If you do not wish to reset your password, simply ignore this email.</p>
-                          </td>
-                      </tr>
-                      <tr>
-                          <td style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
-                              <!-- Button : BEGIN -->
-                              <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto;">
-                                  <tr>
-                                      <td style="border-radius: 3px; background: #222222; text-align: center;" class="button-td">
-                                          <a href="http://www.google.com" style="background: #222222; border: 15px solid #222222; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a">
-                                              <span style="color:#ffffff;" class="button-link">&nbsp;&nbsp;&nbsp;&nbsp;RESET PASSWORD&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                                          </a>
-                                      </td>
-                                  </tr>
-                              </table>
-                              <!-- Button : END -->
-                          </td>
-                      </tr>
+          <!-- Visually Hidden Preheader Text : BEGIN -->
+          <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
+              (Optional) This text will appear in the inbox preview, but not the email body.
+          </div>
+          <!-- Visually Hidden Preheader Text : END -->
 
-                  </table>
-              </td>
-          </tr>
-          <!-- 1 Column Text + Button : END -->
+          <!--
+              Set the email width. Defined in two places:
+              1. max-width for all clients except Desktop Windows Outlook, allowing the email to squish on narrow but never go wider than 680px.
+              2. MSO tags for Desktop Windows Outlook enforce a 680px width.
+              Note: The Fluid and Responsive templates have a different width (600px). The hybrid grid is more "fragile", and I've found that 680px is a good width. Change with caution.
+          -->
+          <div style="max-width: 680px; margin: auto;" class="email-container">
+              <!--[if mso]>
+              <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+              <tr>
+              <td>
+              <![endif]-->
 
-          <!-- Clear Spacer : BEGIN -->
+          <!-- Email Body : BEGIN -->
+          <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px;" class="email-container">
+
+            <!-- Clear Spacer : BEGIN -->
           <tr>
               <td height="40" style="font-size: 0; line-height: 0;">
                   &nbsp;
@@ -262,118 +231,163 @@
           </tr>
           <!-- Clear Spacer : END -->
 
-          </table>
-          <!-- Email Body : END -->
 
-        </table>
-        <!-- Email Body : END -->
-
-        <!-- Email Footer : BEGIN -->
-        <!-- 2 Even Columns : BEGIN -->
-        <tr>
-            <td bgcolor="#222222" align="center" height="100%" valign="top" width="100%">
-                <!--[if mso]>
-                <table role="presentation" aria-hidden="true" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
-                <tr>
-                <td align="center" valign="top" width="660">
-                <![endif]-->
-                <table role="presentation" aria-hidden="true" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:660px;">
-                    <tr>
-                        <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
-                            <!--[if mso]>
-                            <table role="presentation" aria-hidden="true" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
-                            <tr>
-                            <td align="left" valign="top" width="330">
-                            <![endif]-->
-                            <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
-                                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <!-- 1 Column Text + Button : BEGIN -->
+            <tr>
+                <td bgcolor="#ffffff">
+                    <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding: 40px 40px 20px; text-align: center;">
+                                <img src="cloud.svg" alt="icon" style="height: 30px;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; text-align: center;">
+                                <p style="margin: 0;">We received a request to reset your password. If you do not wish to reset your password, simply ignore this email.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555;">
+                                <!-- Button : BEGIN -->
+                                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto;">
                                     <tr>
-                                        <td style="padding: 10px 10px;">
-                                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                                                <tr>
-                                                    <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                                                        <p style="margin: 0; padding: 0 30px; ">TheRedPin, Brokerage <br>5 Church St. <br>Toronto ON, M5E 1M2 <br>416.800.0812</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
+                                        <td style="border-radius: 3px; background: #002b45; text-align: center;" class="button-td">
+                                            <a href="http://www.google.com" style="background: #002b45; border: 15px solid #002b45; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;" class="button-a">
+                                                <span style="color:#ffffff;" class="button-link">&nbsp;&nbsp;&nbsp;&nbsp;RESET PASSWORD&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                            </a>
                                         </td>
                                     </tr>
                                 </table>
-                            </div>
-                            <!--[if mso]>
+                                <!-- Button : END -->
                             </td>
-                            <td align="left" valign="top" width="330">
-                            <![endif]-->
-                            <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
-                                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
-                                    <tr>
-                                        <td style="padding: 10px 10px;">
-                                            <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
-                                                <tr>
-                                                    <td style="font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; padding-top: 10px;" class="stack-column-center">
-                                                        <p style="margin: 0 auto; padding: 0 30px;">TheRedPin, Brokerage <br> 999 West Broadway, Suite 720 <br>Vancouver, BC, V5Z 1K5 <br>778.557.2877</p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <!--[if mso]>
-                            </td>
-                            </tr>
-                            </table>
-                            <![endif]-->
-                        </td>
-                    </tr>
-                </table>
-                <!--[if mso]>
+                        </tr>
+
+                    </table>
                 </td>
-                </tr>
-                </table>
-                <![endif]-->
+            </tr>
+            <!-- 1 Column Text + Button : END -->
+
+            <!-- Clear Spacer : BEGIN -->
+            <tr>
+                <td height="40" style="font-size: 0; line-height: 0;">
+                    &nbsp;
+                </td>
+            </tr>
+            <!-- Clear Spacer : END -->
+
+            </table>
+            <!-- Email Body : END -->
+
             </td>
-        </tr>
-        <!-- 2 Even Columns : END -->
+          </tr>
+        </table>
+      </div>
 
-        <!-- 1 Column Text : BEGIN -->
-        <tr>
-            <td bgcolor="#ffffff">
-                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
-                <tr>
-                  <td style="text-align: center;">
-                    <a href="#"><img src="social_media_icons_gray_icons_set_24x24_0010_linkedin.png" style="margin: 0 7px;"></a>
-                    <a href="#"><img src="social_media_icons_gray_icons_set_24x24_0000_facebook.png" style="margin: 0 7px;"></a>
-                    <a href="#"><img src="social_media_icons_gray_icons_set_24x24_0001_pinterest.png" style="margin: 0 7px;"></a>
-                    <a href="#"><img src="social_media_icons_gray_icons_set_24x24_0002_twitter.png" style="margin: 0 7px;"></a>
-                    <a href="#"><img src="social_media_icons_gray_icons_set_24x24_0003_google+.png" style="margin: 0 7px;"></a>
-                    <a href="#"><img src="social_media_icons_gray_icons_set_24x24_0010_linkedin.png" style="margin: 0 7px;"></a>
-                  </td>
-                </tr>
-                </table>
-            </td>
-        </tr>
-        <!-- 1 Column Text : END -->
+      <!-- Email Footer : BEGIN -->
+      <!-- 2 Even Columns : BEGIN -->
+      <tr>
+          <td bgcolor="#222222" align="center" height="100%" valign="top" width="100%">
+              <!--[if mso]>
+              <table role="presentation" aria-hidden="true" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+              <tr>
+              <td align="center" valign="top" width="660">
+              <![endif]-->
+              <table role="presentation" aria-hidden="true" border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:660px;">
+                  <tr>
+                      <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+                          <!--[if mso]>
+                          <table role="presentation" aria-hidden="true" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+                          <tr>
+                          <td align="left" valign="top" width="330">
+                          <![endif]-->
+                          <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
+                              <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                      <td style="padding: 10px 10px;">
+                                          <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                              <tr>
+                                                  <td style="font-family: sans-serif; font-size: 13px; line-height: 20px; color: #ffffff; padding-top: 10px;" class="stack-column-center">
+                                                      <p style="margin: 0; padding: 0 30px; ">TheRedPin, Brokerage <br>5 Church St. <br>Toronto ON, M5E 1M2 <br>416.800.0812</p>
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </div>
+                          <!--[if mso]>
+                          </td>
+                          <td align="left" valign="top" width="330">
+                          <![endif]-->
+                          <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:330px; vertical-align:top;" class="stack-column">
+                              <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                  <tr>
+                                      <td style="padding: 10px 10px;">
+                                          <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                              <tr>
+                                                  <td style="font-family: sans-serif; font-size: 13px; line-height: 20px; color: #ffffff; padding-top: 10px;" class="stack-column-center">
+                                                      <p style="margin: 0 auto; padding: 0 30px;">TheRedPin, Brokerage <br> 999 West Broadway, Suite 720 <br>Vancouver, BC, V5Z 1K5 <br>778.557.2877</p>
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </div>
+                          <!--[if mso]>
+                          </td>
+                          </tr>
+                          </table>
+                          <![endif]-->
+                      </td>
+                  </tr>
+              </table>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+          </td>
+      </tr>
+      <!-- 2 Even Columns : END -->
 
-        <!-- 1 Column Text : BEGIN -->
-        <tr>
-            <td bgcolor="#ffffff">
-                <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
-                <tr>
-                  <td td style="text-align: center;">
-                    <a href="#" style="padding-left: 0;" class="footer-links sub">Privacy Policy</a>
-                    <a href="#" class="footer-links sub">Terms Of Use</a>
-                    <a href="#" style="border-right: none; padding-right: 0;" class="footer-links sub">TREB Terms</a>
-                  </td>
-                </tr>
-                </table>
-            </td>
-        </tr>
-        <!-- 1 Column Text : END -->
+      <!-- 1 Column Text : BEGIN -->
+      <tr>
+          <td bgcolor="#ffffff">
+              <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td style="text-align: center; padding-bottom: 15px;padding-top: 9px;">
+                  <a href="#"><img src="https://cloud.githubusercontent.com/assets/20923435/26781900/8b5212f2-49f9-11e7-8c24-ba339d3e9b24.png" alt="facebook-social-logo" style="margin: 0 7px;"></a>
+                  <a href="#"><img src="https://cloud.githubusercontent.com/assets/20923435/26781902/8b56423c-49f9-11e7-96e9-90da14301a40.png" alt="pinterest-social-logo" style="margin: 0 7px;"></a>
+                  <a href="#"><img src="https://cloud.githubusercontent.com/assets/20923435/26781901/8b549ed2-49f9-11e7-9176-c171a07044d8.png" alt="twitter-social-logotype" style="margin: 0 7px;"></a>
+                  <a href="#"><img src="https://cloud.githubusercontent.com/assets/20923435/26781899/8b51c392-49f9-11e7-83c6-40b53e150d69.png" alt="google-plus-social-logotype" style="margin: 0 7px;"></a>
+                  <a href="#"><img src="https://cloud.githubusercontent.com/assets/20923435/26781903/8b57209e-49f9-11e7-9c36-0b2a0cb22442.png" alt="linkedin-logo" style="margin: 0 7px;"></a>
+                </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      <!-- 1 Column Text : END -->
 
-        <!-- Email Footer : END -->
+      <!-- 1 Column Text : BEGIN -->
+      <tr>
+          <td bgcolor="#ffffff">
+              <table role="presentation" aria-hidden="true" cellspacing="0" cellpadding="0" border="0" width="100%">
+              <tr>
+                <td td style="text-align: center; padding-bottom: 10px;">
+                  <a href="#" style="padding-left: 0;" class="footer-links sub">Privacy Policy</a>
+                  <a href="#" class="footer-links sub">Terms Of Use</a>
+                  <a href="#" style="border-right: none; padding-right: 0;" class="footer-links sub">TREB Terms</a>
+                </td>
+              </tr>
+              </table>
+          </td>
+      </tr>
+      <!-- 1 Column Text : END -->
+      <!-- Email Footer : END -->
 
-        </div>
-    </center>
-</body>
+    </div>
+
+  <!-- </center> -->
+  </body>
 </html>
